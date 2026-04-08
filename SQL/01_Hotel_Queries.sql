@@ -1,4 +1,4 @@
--- Q1: Last booked room per user
+-- 1.Last booked room per user
 SELECT b.user_id, b.room_no
 FROM bookings b
 JOIN (
